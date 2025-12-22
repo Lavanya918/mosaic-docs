@@ -6,8 +6,6 @@ The **MOSAIC Home Page** is the primary landing dashboard displayed after a user
 
 MOSAIC (Mammary Oncology Spatial Analysis and Intelligent Classification) supports precision care in breast oncology through spatial analysis and intelligent classification.
 
----
-
 ## Home Page Layout
 
 The Home Page consists of the following key sections:
@@ -17,31 +15,28 @@ The Home Page consists of the following key sections:
 3. Welcome Banner  
 4. Quick Actions  
 
----
-
 ## Top Navigation Bar
 
 The top navigation bar is visible across the platform and provides workspace- and account-level information.
 
 ### Components
 
-- **MOSAIC Logo**
+  **MOSAIC Logo**
   - Displays MOSAIC branding.
   - Clicking the logo navigates back to the Home Page.
 
-- **Credits Indicator**
+  **Credits Indicator**
   - Displays the number of available credits for running analyses and orders.
 
-- **Workspace Indicator**
+  **Workspace Indicator**
   - Shows the currently active workspace.
 
-- **Notifications Icon**
+  **Notifications Icon**
   - Displays system notifications and alerts.
 
-- **User Profile Icon**
+  **User Profile Icon**
   - Opens user-related actions such as account settings and sign out.
 
----
 
 ## Left Navigation Menu
 
@@ -60,7 +55,6 @@ The left sidebar allows navigation to the main sections of the platform.
 
 The active menu item is visually highlighted.
 
----
 
 ## Welcome Banner
 
@@ -84,7 +78,6 @@ The Welcome Banner appears at the top of the main content area and highlights th
 - **View All Orders**
   - Opens the list of all previously created orders for review and management.
 
----
 
 ## Quick Actions Section
 
@@ -100,7 +93,6 @@ The **Quick Actions** section provides visual cards that allow users to quickly 
 📌 **Note:**  
 Both the *Create New Order* button in the Welcome Banner and the *Create New Order* Quick Action card initiate the same workflow. Users can use either option based on preference.
 
----
 
 #### View All Orders
 - Opens the complete list of existing and previous orders.
@@ -112,8 +104,6 @@ Both the *Create New Order* button in the Welcome Banner and the *Create New Ord
 
 Each Quick Action card includes a short description and a navigation arrow for ease of use.
 
----
-
 ## Typical User Workflow
 
 1. User logs into MOSAIC.
@@ -122,3 +112,4 @@ Each Quick Action card includes a short description and a navigation arrow for e
    - Create a new order
    - View existing orders
    - Manage patient records
+     
