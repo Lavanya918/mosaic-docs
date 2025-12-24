@@ -163,15 +163,11 @@ The user can still proceed with the order after acknowledging this advisory mess
 
 This step captures detailed information about the biological sample or specimen submitted for spatial analysis, including pathology details, specimen characteristics, slide counts, and optional IHC and digital slide availability.
 
----
-
 ## Sample Details
 
 ### Description
 
 The Sample / Specimen Information step records clinical and laboratory details required for accurate processing and analysis. Certain fields and messages are displayed conditionally based on user selections (e.g., IHC staining or digital whole slide image availability).
-
----
 
 ### Fields
 
@@ -186,7 +182,6 @@ The Sample / Specimen Information step records clinical and laboratory details r
 | Total number of H&E slides | Number of Hematoxylin & Eosin stained slides | No |
 | Total number of IHC slides | Number of Immunohistochemistry slides | No |
 
----
 
 ## Supported Cancer Types
 
@@ -195,8 +190,6 @@ MOSAIC currently supports analysis for the following cancer types:
 - Breast Cancer
 
 > This list may expand as additional cancer types are validated and supported.
-
----
 
 ## Specimen Types
 
@@ -213,8 +206,6 @@ The following **specimen collection methods** are supported:
 
 > The selected specimen type should accurately reflect the clinical procedure used to obtain the tissue.
 
----
-
 ## Sample Types
 
 MOSAIC currently supports the following **sample formats**:
@@ -224,7 +215,6 @@ MOSAIC currently supports the following **sample formats**:
 
 > Samples must meet platform-defined quality and preparation requirements for successful analysis.
 
----
 
 ## IHC Staining Requirement
 
@@ -234,8 +224,6 @@ MOSAIC currently supports the following **sample formats**:
 - **No**
 
 This selection determines whether additional IHC-specific details are required.
-
----
 
 ## IHC Staining Details (When IHC = Yes)
 
@@ -259,16 +247,12 @@ Users must select **at least one** Immunohistochemistry (IHC) marker:
 | Total number of IHC slides | Number of IHC slides required | No |
 | Required IHC markers | Selected biomarkers for IHC staining | Yes |
 
----
-
 ## Digital Whole Slide Image (WSI)
 
 **Do you have a digital whole slide image for analysis?**
 
 - **Yes**
 - **No**
-
----
 
 ## Additional Information (When WSI = Yes)
 
@@ -278,8 +262,6 @@ If **Yes** is selected for digital whole slide image availability, the following
 > You will receive a secure upload link after submitting the order.
 
 Digital slide files are uploaded securely after order submission.
-
----
 
 ## Actions
 
@@ -298,7 +280,6 @@ Digital slide files are uploaded securely after order submission.
 - Date fields must follow the `dd-mm-yyyy` format.
 - Slide count fields must contain valid numeric values.
 - When IHC staining is required, at least one IHC marker must be selected.
-
 
 ## Step 5: Shipping Address – Pickup & Return
 
@@ -397,7 +378,6 @@ Once submitted, the order appears in **View All Orders** and enters the processi
 * Verify all information carefully before submission.
 * Some order details may not be editable after submission.
 * Incomplete orders cannot be submitted.
-
 
 ## Related Documentation
 
