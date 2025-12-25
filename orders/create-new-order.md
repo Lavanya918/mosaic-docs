@@ -360,25 +360,182 @@ This ensures samples are packed safely and according to platform requirements.
 
 ## Step 6: Review & Submit
 
-This final step allows users to review all previously entered information before submitting the order.
+The Review & Submit step presents a consolidated, read-only summary of all information entered during the order creation process. Users should carefully review all details before submitting the order.
 
-### Description
+> ⚠️ **Privacy Notice:**  
+> All examples shown below use placeholder data. No real patient or user information is displayed.
 
-Users should verify the accuracy of order, patient, physician, sample, and shipping details.
+## Order Details
 
-### Actions
+This section summarizes information about the ordering professional and the purpose of the test.
 
-* **Submit Order**: Finalizes and submits the order for processing.
-* **Back**: Returns to previous steps to make corrections.
+| Field | Value |
+|------|------|
+| Role | <User Role> |
+| Title | <Professional Title> |
+| First Name | <First Name> |
+| Last Name | <Last Name> |
+| Institution | <Institution Name> |
+| Institution Address | <Institution Address> |
+| Medical Registration Number | <Registration Number> |
+| Work Email | <Work Email Address> |
+| Work Phone | <Work Phone Number> |
+| Work Landline | <Work Landline Number> |
+| Purpose of Test | <Purpose Description> |
+| Shipping ID | <System Generated ID> |
 
-Once submitted, the order appears in **View All Orders** and enters the processing workflow.
+## Patient Information
 
-## Notes & Best Practices
+This section displays patient demographic and contact information.
 
-* Verify all information carefully before submission.
-* Some order details may not be editable after submission.
-* Incomplete orders cannot be submitted.
+| Field | Value |
+|------|------|
+| First Name | <Patient First Name> |
+| Last Name | <Patient Last Name> |
+| MRN | <Medical Record Number> |
+| Date of Birth | <DD-MM-YYYY> |
+| Age | <Patient Age> |
+| Gender | <Gender> |
+| Email | <Patient Email Address> |
+| Phone | <Patient Phone Number> |
+| Address | <Patient Address> |
+| Postal Code | <Postal Code> |
+| State | <State> |
+| Country | <Country> |
 
+## Ordering Physician
+
+This section summarizes referral details for the ordering physician.
+
+| Field | Value |
+|------|------|
+| Physician Recommended Test | <Yes / No> |
+| Physician Name | <Physician Full Name> |
+| Clinic / Hospital Name | <Clinic or Hospital Name> |
+| Clinic / Hospital Address | <Clinic Address> |
+| Email | <Physician Email Address> |
+| Phone | <Physician Phone Number> |
+
+
+## Sample / Specimen
+
+This section summarizes all pathology and specimen-related information.
+
+| Field | Value |
+|------|------|
+| Require IHC | <Yes / No> |
+| Has Digital WSI | <Yes / No> |
+| Date of Sample Collection | <DD-MM-YYYY> |
+| Histopathology Slide Reference | <Reference Number> |
+| Total Slides / Blocks | <Numeric Value> |
+| Total H&E Slides | <Numeric Value> |
+| Total IHC Slides | <Numeric Value> |
+| Cancer Type | <Selected Cancer Type> |
+| Cancer Type (Other) | <If Applicable> |
+| Specimen Type | <Specimen Type> |
+| Specimen Type (Other) | <If Applicable> |
+| Sample Type | <FFPE Block / FFPE Slide> |
+| IHC Markers | <Selected IHC Markers> |
+
+## Shipping
+
+This section summarizes pickup and return logistics.
+
+| Field | Value |
+|------|------|
+| Sent From Lab | <Yes / No> |
+| Same Return Address | <Yes / No> |
+| Sender / Lab Name | <Sender Name> |
+| Pickup Address | <Pickup Address> |
+| Contact Person | <Contact Name & Details> |
+| Return Address | <Return Address> |
+| Postal Code | <Postal Code> |
+| State | <State> |
+| Country | <Country> |
+
+## Actions
+
+- **Save as Draft**  
+  Saves the order without final submission.
+
+- **Back**  
+  Returns to the **Shipping Address** step for edits.
+
+- **Submit**  
+  Submits the order for processing.
+
+> ⚠️ Once submitted, the order cannot be edited.
+
+
+## Validation
+
+- All required steps must be completed before submission.
+- Users must verify the accuracy of all information before submitting the order.
+- Submission confirms that the provided information is complete and correct.
+
+## Terms, Privacy & Declaration (Post-Submit Confirmation)
+
+When the user clicks **Submit** on the **Review & Submit** page, a modal dialog is displayed requiring explicit agreement to the Terms & Conditions, Privacy Policy, and Declaration before the order can be submitted.
+
+## Modal Overview
+
+**Title:**  
+Terms, Privacy & Declaration
+
+**Description:**  
+Users are prompted to carefully review the Terms & Conditions, Privacy Policy, and Declaration applicable to the MOSAIC clinical test service before completing the order submission.
+
+## Terms and Conditions
+
+The modal displays legal and regulatory information governing the use of the MOSAIC (Mammary Oncology Spatial Analysis and Intelligent Classification) service, including:
+
+### Key Sections
+
+1. **Nature of the MOSAIC Service**
+   - AI-driven clinical decision support for breast cancer histopathology analysis
+   - Analysis of digitized histopathology slides
+   - Generation of AI-derived insights to assist pathologists
+
+2. **Augmentative Tool Disclaimer**
+   - MOSAIC is intended to **support**, not replace, clinical judgment
+   - Results must be interpreted alongside comprehensive clinical evaluation
+
+3. **No Medical Advice Disclaimer**
+   - MOSAIC does not provide medical advice
+   - Final diagnostic and treatment decisions remain with qualified healthcare professionals
+
+> The complete Terms & Conditions and Privacy Policy content is scrollable within the modal.
+
+## User Consent Requirement
+
+To proceed with submission, the user must explicitly confirm the following:
+
+- ☑️ *I have scrolled through and read the Terms & Conditions, Privacy Policy, and Declaration.*
+
+This checkbox is **mandatory**.
+
+## Actions
+
+| Action | Description |
+|------|-------------|
+| Cancel | Closes the modal and returns the user to the Review & Submit page without submitting the order |
+| Submit | Finalizes and submits the order after consent is provided |
+
+## Validation Rules
+
+- The **Submit** button within the modal is enabled **only after** the consent checkbox is selected.
+- If the checkbox is not selected, the user cannot complete order submission.
+- Submission indicates acceptance of all listed terms and declarations.
+
+## Submission Outcome
+
+Once the Terms, Privacy & Declaration are accepted:
+
+- The order is successfully submitted
+- An order reference ID is generated
+- The order status is updated accordingly
+- Any next steps (such as secure upload links, if applicable) are triggered
+  
 ## Related Documentation
 
 * Home Dashboard
