@@ -90,6 +90,46 @@ This allows users to quickly locate specific orders.
 - Users can select the number of rows displayed per page.
 - Navigation controls allow paging through large order lists.
 
+# Order Statuses & Processing Stages
+
+This document describes the various **processing stages** an order goes through after submission and how they are represented in the Orders page.
+
+Status indicators provide users with a clear, at-a-glance understanding of the progress of their order.
+
+## Overview
+
+After an order is submitted, it moves through a series of operational and clinical processing stages.  
+Each stage is represented visually in the **Status** column using icons.
+
+Multiple stages may be visible simultaneously to reflect completed and in-progress steps.
+
+## Order Processing Stages
+
+| Stage | Description |
+|------|-------------|
+| Image Upload | Digital whole slide images are uploaded or pending upload |
+| Shipment in Progress | Physical slides or blocks are in transit to the laboratory |
+| Slides Digitized | Glass slides have been successfully digitized |
+| Image QC | Digital images are undergoing quality control checks |
+| AI Test | AI-based analysis is being performed |
+| Pathologist Review | Clinical review by a qualified pathologist |
+| Payment | Payment is pending, initiated, or completed |
+| Order Status | Final state of the order (e.g., Draft, Submitted, Completed) |
+
+## Status Icon Representation
+
+- Each processing stage is represented by an **icon**.
+- Icons visually communicate the state of each stage:
+  - Pending
+  - In Progress
+  - Completed
+- Completed stages remain visible for traceability.
+- The current active stage is visually emphasized.
+
+> Icon designs, colors, and ordering are subject to change and are handled by the UI layer.
+
+## Typical Order Flow
+
 ## Privacy & Data Protection Notes
 
 - Personal, clinical, and patient-identifiable information is masked or anonymized in documentation.
