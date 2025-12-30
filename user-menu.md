@@ -12,6 +12,7 @@ This section displays information related to the currently authenticated user. T
 
 ### Control & Account Management
 - **Control Room**
+
   The **Control Room** provides a centralized, operational view of all orders within the MOSAIC platform. It is designed for    real-time monitoring, tracking, and oversight of order progression across key workflow stages, enabling efficient
   coordination between laboratory operations, image processing, quality control, and clinical review.
 
