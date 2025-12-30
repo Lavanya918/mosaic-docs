@@ -1,86 +1,219 @@
-# MOSAIC – User Menu (Right Panel)
+# User Menu
 
 ## Overview
-The **User Menu** is accessible from the top-right corner of the MOSAIC platform by clicking on the user avatar. This panel provides access to account-related controls, support resources, and session management options.
+
+The **User Menu** provides access to account-level settings, platform controls, documentation, and support-related actions within the MOSAIC platform. It is accessible from the **top-right profile icon** and remains available across all pages.
 
 ---
 
-## User Information
-This section displays information related to the currently authenticated user. The details shown and the available options within the user menu are determined by the role assigned to the user within the MOSAIC platform.
+## Profile Information
 
-## Menu Options
+The top section of the user menu displays:
+- **User display name**
+- **Role** (e.g., Owner)
 
-### Control & Account Management
-- **Control Room**
+This section helps users quickly identify the active account.
 
-  The **Control Room** provides a centralized, operational view of all orders within the MOSAIC platform. It is designed for    real-time monitoring, tracking, and oversight of order progression across key workflow stages, enabling efficient
-  coordination between laboratory operations, image processing, quality control, and clinical review.
+---
 
-  The Control Room layout and functionality are similar to the Orders section accessible from the Home page, with an emphasis   on operational status visibility.
+## Your Teams
 
-- **Manage Credits**
-  - Allows users to view and manage available credits for platform usage.
+Provides access to team-related information associated with the user’s account.
 
-### Documentation & Support
-- **Documentation**
-  - Opens official MOSAIC user guides and technical documentation.
-- **Amaranth Support**
+---
+
+## Control Room
+
+### Overview
+
+The **Control Room** acts as a centralized operational view, similar in structure and functionality to the **Orders** section available from the left navigation panel.
+
+### Functionality
+
+- Displays a tabular view of orders
+- Supports filtering, sorting, and data export
+- Allows monitoring of order progression and workflow status
+
+This section is intended for high-level operational oversight.
+
+---
+
+## Manage Credits
+
+Allows users to view and manage credits associated with their account. Credits may be used for platform services, analyses, or tests depending on the active plan.
+
+---
+
+## Documentation
+
+Provides access to MOSAIC documentation, including:
+- Platform workflows
+- Feature descriptions
+- Usage guidelines
+
+Documentation is intended for onboarding, reference, and support.
+
+---
+
 ## Amaranth Support
 
 ### Overview
 
-**Amaranth Support** provides users with a direct channel to contact the Amaranth support team for assistance related to the MOSAIC platform. This option is available from the **right-side user menu** and enables users to submit queries or report issues without leaving the application.
+**Amaranth Support** enables users to contact the support team directly from within the platform for assistance or general queries.
+
+---
 
 ### Access
 
-- Click on the **user profile icon** in the top-right corner
-- Select **Amaranth Support** from the menu
+- Click the **user profile icon**
+- Select **Amaranth Support**
 
 This opens the **Contact Amaranth Support** modal.
 
-### Contact Amaranth Support Modal
+---
 
-The support modal allows users to submit a support request by entering the following information:
+### Contact Amaranth Support Modal
 
 #### Fields
 
 - **Email Address**
-  - Email address for support correspondence
+  - Email for support correspondence
 
 - **Topic**
-  - Short subject describing the issue or request  
-  - Example: *Order status*, *Image upload issue*, *Access problem*
+  - Short subject describing the query
 
 - **Description**
   - Brief description of the issue or assistance required
 
+---
+
 ### Actions
 
 - **Send**
-  - Submits the support request to the Amaranth support team
+  - Submits the support request
 
 - **Cancel**
-  - Closes the modal without submitting the request
-
-### Feedback & System Information
-- **Request Feature**
-  - Enables users to submit feature enhancement requests.
-- **Report Issue**
-  - Allows users to report bugs or technical issues encountered on the platform.
-- **Version History**
-  - Displays the application’s version information and update history.
+  - Closes the modal without submission
 
 ---
 
-## Session Management
-- **Sign Out**
-  - Terminates the current user session and logs the user out of the MOSAIC platform.
+### Usage Notes
 
+- Avoid including patient-identifiable or sensitive clinical information
+- Provide sufficient detail to help the support team respond effectively
 
-## Notes
-- Visibility and accessibility of menu options may vary depending on the user’s assigned role.
-- The User Menu supports secure, role-based access to platform functionality.
+---
 
-*End of Document*
+## Request Feature
 
+### Overview
 
+The **Request Feature** option allows users to submit suggestions for new features or enhancements to the MOSAIC platform.
+
+---
+
+### Access
+
+- Click the **user profile icon**
+- Select **Request Feature**
+
+This opens the **Request New Feature** modal.
+
+---
+
+### Request New Feature Modal
+
+#### Fields
+
+- **Summary***  
+  - Short title describing the requested feature
+
+- **Description**  
+  - Detailed explanation of the feature request
+
+(* indicates required field)
+
+---
+
+### Actions
+
+- **Send**
+  - Submits the feature request
+
+- **Cancel**
+  - Closes the modal without submitting
+
+---
+
+### Notes
+
+- Feature requests are reviewed as part of the product roadmap
+- Submission does not guarantee immediate implementation
+- Sensitive or patient-specific data should not be included
+
+---
+
+## Report Issue
+
+### Overview
+
+The **Report Issue** option allows users to report bugs, errors, or unexpected platform behavior.
+
+---
+
+### Access
+
+- Click the **user profile icon**
+- Select **Report Issue**
+
+This opens the **Report Issue** modal.
+
+---
+
+### Report Issue Modal
+
+#### Fields
+
+- **Summary***  
+  - Short title describing the issue
+
+- **Description**  
+  - Detailed explanation of the problem encountered
+
+(* indicates required field)
+
+---
+
+### Actions
+
+- **Send**
+  - Submits the issue report
+
+- **Cancel**
+  - Closes the modal without submission
+
+---
+
+### Usage Guidelines
+
+- Clearly describe the issue and steps to reproduce, if applicable
+- Do not include sensitive or patient-identifiable information
+- Reported issues are reviewed and tracked by the support team
+
+---
+
+## Version History
+
+Displays version information and update history for the MOSAIC platform, helping users stay informed about new features, enhancements, and fixes.
+
+---
+
+## Log Out
+
+Logs the user out of the MOSAIC platform securely and ends the current session.
+
+---
+
+## Notes on Data Privacy
+
+All examples shown in documentation use placeholders. Personal, patient-identifiable, or sensitive clinical information should not be included in documentation, feature requests, or support submissions.
