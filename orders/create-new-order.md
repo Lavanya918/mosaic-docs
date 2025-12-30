@@ -187,24 +187,21 @@ The Sample / Specimen Information step records clinical and laboratory details r
 
 MOSAIC currently supports analysis for the following cancer types:
 
-- Breast Cancer
-
-> This list may expand as additional cancer types are validated and supported.
+- Invasive ductal carcinoma
+- Invasive lobular carcinoma
+- Invasive mucinous carcinoma
+- Inflammatory breast cancer
+- Others - specify
 
 ## Specimen Types
 
 The following **specimen collection methods** are supported:
 
-- **Core Needle Biopsy**  
-  Tissue obtained using a hollow needle, commonly used for minimally invasive diagnosis.
-
-- **Incisional Biopsy**  
-  Partial removal of tissue from a lesion or mass for diagnostic purposes.
-
-- **Excisional Biopsy**  
-  Complete removal of the lesion or mass for comprehensive pathological evaluation.
-
-> The selected specimen type should accurately reflect the clinical procedure used to obtain the tissue.
+- Core Needle Biopsy
+- Incisional Biopsy 
+- Excisional Biopsy
+- Cell block
+- Others - specify
 
 ## Sample Types
 
