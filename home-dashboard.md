@@ -53,6 +53,9 @@ The left sidebar allows navigation to the main sections of the platform.
 - **Patients**
   - Opens patient management and record-related features.
 
+- **Model**
+  - Provides read-only information about the MOSAIC model.
+
 The active menu item is visually highlighted.
 
 
