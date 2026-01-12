@@ -22,22 +22,6 @@ Provides access to team-related information associated with the user’s account
 
 ---
 
-## Control Room
-
-### Overview
-
-The **Control Room** acts as a centralized operational view, similar in structure and functionality to the **Orders** section available from the left navigation panel.
-
-### Functionality
-
-- Displays a tabular view of orders
-- Supports filtering, sorting, and data export
-- Allows monitoring of order progression and workflow status
-
-This section is intended for high-level operational oversight.
-
----
-
 ## Manage Credits
 
 Allows users to view and manage credits associated with their account. Credits may be used for platform services, analyses, or tests depending on the active plan.
@@ -55,24 +39,24 @@ Documentation is intended for onboarding, reference, and support.
 
 ---
 
-## Amaranth Support
+## Contact Support
 
 ### Overview
 
-**Amaranth Support** enables users to contact the support team directly from within the platform for assistance or general queries.
+**Contact Support** enables users to contact the support team directly from within the platform for assistance or general queries.
 
 ---
 
 ### Access
 
 - Click the **user profile icon**
-- Select **Amaranth Support**
+- Select **Contact Support**
 
-This opens the **Contact Amaranth Support** modal.
+This opens the **Contact Support** modal.
 
 ---
 
-### Contact Amaranth Support Modal
+### Contact Support Modal
 
 #### Fields
 
