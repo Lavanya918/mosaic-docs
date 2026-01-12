@@ -109,7 +109,7 @@ Multiple stages may be visible simultaneously to reflect completed and in-progre
 |------|-------------|
 | Image Upload | Digital whole slide images are uploaded or pending upload |
 | Shipment in Progress | Physical slides or blocks are in transit to the laboratory |
-| Slides Digitized | Glass slides have been successfully digitized |
+| Slides Digitized | Slides have been successfully digitized |
 | Image QC | Digital images are undergoing quality control checks |
 | AI Test | AI-based analysis is being performed |
 | Pathologist Review | Clinical review by a qualified pathologist |
